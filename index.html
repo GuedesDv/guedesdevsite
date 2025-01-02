@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-sharp-duotone fa-solid fa-desktop" id="nav_logo"> GUEDES DEV</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Info</a>
+                </li>
+            </ul>
+
+            <button class="btn-default" onclick="window.location.href='https://wa.me/19994639495'">
+                Entre em contato
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Info</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Entre em contato
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Programação
+                    <span>feita para você</span>
+                </h1>
+
+                <p class="description">
+                    Olá, sou Iago Guedes, um desenvolvedor de sistemas apaixonado por tecnologia e inovação. Com 31 anos e uma trajetória profissional voltada para a criação de soluções digitais, tenho me dedicado a transformar ideias em produtos robustos e funcionais. 
+Ao longo dos anos, adquiri experiência em diversas tecnologias, desde o desenvolvimento web até sistemas corporativos, e estou sempre em busca de novos desafios.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Soluções
+                    </a>
+
+                    <a href="tel:+5519994639495" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (19) 99463-9495
+                    </a>
+                </div>
+                
+                <div class="social-media-buttons">
+                    <!-- Botão WhatsApp -->
+                    <a href="https://wa.me/5519994639495" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                
+                    <!-- Botão Instagram -->
+                    <a href="https://www.instagram.com/iagogueds" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                
+                    <!-- Botão Facebook -->
+                    <a href="https://www.facebook.com/iagogueds" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Soluções rapidas, concretas e inteligentes</h2>
+            <h3 class="section-subtitle">"Não prever, é já lamentar." - Leonardo da Vinci</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Java & JavaScript: Programação de Alta Performance
+                    </h3>
+
+                    <span class="dish-description">
+                        Combinamos a robustez do Java e a flexibilidade do JavaScript para entregar resultados rápidos e de qualidade
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                    </div>
+
+                    <div class="dish-price">        
+                        <a href="https://wa.me/5519994639495" target="_blank">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Desenvolvimento de Jogos de Alto Padrão para Eventos
+                    </h3>
+
+                    <span class="dish-description">
+                        Jogos interativos e pedagógicos para enriquecer a experiência dos participantes<br><br>
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">        
+                        <a href="https://wa.me/5519994639495" target="_blank">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Solução de Problemas Acadêmicos e Estratégias
+                    </h3>
+
+                    <span class="dish-description">
+                        Resolução de trabalhos acadêmicos e desenvolvimento de estratégias para otimização de marketing digital<br><br>
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">        
+                        <a href="https://wa.me/5519994639495" target="_blank">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Criação de Landing Pages de Alta Performance
+                    </h3>
+
+                    <span class="dish-description">
+                        Designs otimizados para maximizar conversões e alcançar resultados excepcionais<br><br>
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span></span>
+                    </div>
+
+                    <div class="dish-price">        
+                        <a href="https://wa.me/5519994639495" target="_blank">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Guedes dev
+                </h2>
+                <h3 class="section-subtitle">
+                    Informações Gerais
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                
+                            
+                            </p>
+                            <p>
+                                Sou um profissional com experiência em diversas áreas de desenvolvimento, especializado em Java, JavaScript, HTML e CSS. Com uma abordagem focada na experiência do usuário, também sou habilidoso em design UX/UI, criando interfaces intuitivas e envolventes. Além disso, desenvolvo jogos pedagógicos que combinam aprendizado e diversão de forma eficaz.<br><br><p>Também ofereço serviços de formatação de trabalhos acadêmicos, garantindo que seu conteúdo esteja sempre no formato adequado. Se você busca um profissional completo, que entrega soluções de alta qualidade e com atenção aos detalhes, estou à disposição para ajudar no seu projeto.</p>
+                            </p>
+                        </div>
+                    </div>
+
+                <button class="btn-default">
+                   Entre em contato!
+                </button>
+            
+
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Guedes Dev - Todos os direitos reservados <br><br><br>
+
+                <div class="social-media-buttons">
+                    <!-- Botão WhatsApp -->
+                    <a href="https://wa.me/5519994639495" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                
+                    <!-- Botão Instagram -->
+                    <a href="https://www.instagram.com/seuusuario" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                
+                    <!-- Botão Facebook -->
+                    <a href="https://www.facebook.com/seuusuario" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
