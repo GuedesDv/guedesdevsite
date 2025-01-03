@@ -95,10 +95,10 @@
     }
 }
 
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 375px) {
 
     #cta .title {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     #phone_button button {
