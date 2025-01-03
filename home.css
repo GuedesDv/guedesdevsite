@@ -98,7 +98,8 @@
 @media screen and (max-width: 450px) {
 
     #cta .title {
-        font-size: 2rem;}
+        font-size: 2rem;
+    }
 
     #phone_button button {
         display: none;
